@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>searchSite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favi.ico" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Search on well-known sites</h1>
+      <form action="https://www.youtube.com/results" target="_blank">
+        <label for="youtube">Search on youtube</label>
+        <input type="text" id="youtube" name="search_query" class="que"/>
+        <button type="submit" >Search</button>
+        <input type="checkbox" unchecked />
+      </form type>
+      <form action="https://www.google.com/search" target="_blank">
+        <label for="google">Search on google</label>
+        <input type="text" id="google" name="q" class="que"/>
+        <button type="submit" >Search</button>
+        <input type="checkbox" value="1"/>
+      </form>
+      <form action="https://developer.mozilla.org/en-US/search" target="_blank">
+        <label for="mozilla">Search on mozilla</label>
+        <input type="text" id="mozilla" name="q" class="que"/>
+        <button type="submit" >Search</button>
+        <input type="checkbox" />
+      </form>
+      <div>
+        <p>Search on all checked</p>
+        <button id="search-all">Search</button>
+      </div>
+    </div>
+   <script src="script.js"></script>
+  </body>
+</html>
